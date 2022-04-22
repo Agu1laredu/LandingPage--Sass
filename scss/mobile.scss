@@ -1,0 +1,83 @@
+@media (max-width: 700px){
+
+
+ 
+
+
+//Utility Classe 
+
+
+
+
+.display-1{
+    font-size:  3rem;
+    
+}
+
+.display-2{
+    font-size:  2rem;
+    
+}
+
+.large{
+    font-size: 1.2rem;
+
+}
+
+
+
+//MainHeader
+
+#mainheader{
+    height: 100%;
+    text-align: center;
+    .mainheader-tittle{
+        float: none;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        
+        
+    }
+    .mainheader-image{
+        float:  none;
+        height: 400px;
+        width: 100%;
+        background-image: url(../img/img.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+    }
+ // end .mainheader-tittle
+
+    
+} //end mainheader
+
+
+//Join
+
+#join{
+    padding: 70px 0;
+
+    h2{
+        padding-top: 0;
+    }
+    p {
+      padding-bottom: 30px;
+    }
+    .join-form{
+        padding: 40px;
+        width: 100%;
+        
+
+    } //end join-form
+
+} //end join
+
+
+
+
+
+
+}

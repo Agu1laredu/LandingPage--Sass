@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Inspiration&family=League+Gothic&family=Neonderthaw&family=Ramaraja&family=Road+Rage&family=Roboto+Condensed:wght@300;700&display=swap');
+
+
+
+$font-stack: 'Roboto', sans-serif;
+$primary-color: #2D8BF5;
+$gray-color: #4D4D4D;
+$second-color: #0ed0b3;
+
+//Reset
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+html,
+body{
+    font-family: $font-stack;
+    color: $gray-color
+}
+
+h1{ font-size: 3rem;}
+h2 { font-size: 2.8rem;}
+h4 { font-size:  1.5rem;}
+
+
+p{
+    font-size: 1rem;
+    margin: 10px 0;
+    line-height:  1.7em;
+
+}
+
+a{ text-decoration: none;}
+
+
+//Utility Classe 
+
+.container{
+    margin: auto;
+    max-width: 1300px;
+    overflow: auto;
+    padding: 0 20px;
+}
+
+
+.display-1{
+    font-size:  4rem;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.display-2{
+    font-size:  3rem;
+    
+}
+.display-1,
+.display-2{
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.large{
+    font-size: 1.5rem;
+
+}
+
+.btn{
+    display: inline-block ;
+    font-size: 20px;
+    padding: 12px 40;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 2px;
+    cursor: pointer;
+    &:hover{
+        transform: translateY(-6%);
+    }
+}
+
+
+.btn-dark{
+    background: $second-color;
+    border: none;
+    color: #FFF;
+    cursor: pointer;
+}
+
+
+
+form {
+    .form-group{
+        margin-bottom: 16px;
+    }
+    .form-control{
+
+        width: 100%;
+        padding: 7px 12px;
+        font-size: 1rem;
+        line-height: 1.5;
+        border: 1px solid $gray-color;
+        border-radius: 4px;
+
+    } //end form-control
+
+} // end form
+
+
+//MainHeader
+
+#mainheader{
+    height: 100vh;
+    .mainheader-tittle{
+        float: left;
+        width: 50%;
+        padding-top: 250px;
+        a{
+            margin-top: 50px;
+
+        }
+        
+    }
+    .mainheader-image{
+        float:  right;
+        width: 50%;
+        background-image: url(../img/img.jpg);
+        height: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    
+    }
+ // end .mainheader-tittle
+
+    
+} //end mainheader
+
+
+//Join
+
+#join{
+    padding: 100px 0;
+
+    h2{
+        text-align: center;
+        padding-top: 70px;
+    }
+    p {
+      text-align: center;
+      padding-bottom: 60px;
+    }
+    .join-form{
+        border: 1px solid $gray-color;
+        padding: 60px;
+        width: 50%;
+        margin: 0 auto;
+        h4{
+            padding-bottom: 40px;
+        }
+
+    } //end join-form
+
+} //end join
+
+
+
+//Footer
+
+h5{
+    text-align: center;
+    color: #4D4D4D;
+    margin: auto;
+    cursor: pointer;
+    span{
+        font-size: 200%;
+    }
+    
+}
+
+
+@import 'mobile';

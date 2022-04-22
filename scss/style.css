@@ -1,0 +1,202 @@
+@import url("https://fonts.googleapis.com/css2?family=Inspiration&family=League+Gothic&family=Neonderthaw&family=Ramaraja&family=Road+Rage&family=Roboto+Condensed:wght@300;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "Roboto", sans-serif;
+  color: #4D4D4D;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+h2 {
+  font-size: 2.8rem;
+}
+
+h4 {
+  font-size: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  margin: 10px 0;
+  line-height: 1.7em;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: auto;
+  max-width: 1300px;
+  overflow: auto;
+  padding: 0 20px;
+}
+
+.display-1 {
+  font-size: 4rem;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.display-2 {
+  font-size: 3rem;
+}
+
+.display-1,
+.display-2 {
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+.large {
+  font-size: 1.5rem;
+}
+
+.btn {
+  display: inline-block;
+  font-size: 20px;
+  padding: 12px 40;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  -webkit-transform: translateY(-6%);
+          transform: translateY(-6%);
+}
+
+.btn-dark {
+  background: #0ed0b3;
+  border: none;
+  color: #FFF;
+  cursor: pointer;
+}
+
+form .form-group {
+  margin-bottom: 16px;
+}
+
+form .form-control {
+  width: 100%;
+  padding: 7px 12px;
+  font-size: 1rem;
+  line-height: 1.5;
+  border: 1px solid #4D4D4D;
+  border-radius: 4px;
+}
+
+#mainheader {
+  height: 100vh;
+}
+
+#mainheader .mainheader-tittle {
+  float: left;
+  width: 50%;
+  padding-top: 250px;
+}
+
+#mainheader .mainheader-tittle a {
+  margin-top: 50px;
+}
+
+#mainheader .mainheader-image {
+  float: right;
+  width: 50%;
+  background-image: url(../img/img.jpg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+#join {
+  padding: 100px 0;
+}
+
+#join h2 {
+  text-align: center;
+  padding-top: 70px;
+}
+
+#join p {
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+#join .join-form {
+  border: 1px solid #4D4D4D;
+  padding: 60px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+#join .join-form h4 {
+  padding-bottom: 40px;
+}
+
+h5 {
+  text-align: center;
+  color: #4D4D4D;
+  margin: auto;
+  cursor: pointer;
+}
+
+h5 span {
+  font-size: 200%;
+}
+
+@media (max-width: 700px) {
+  .display-1 {
+    font-size: 3rem;
+  }
+  .display-2 {
+    font-size: 2rem;
+  }
+  .large {
+    font-size: 1.2rem;
+  }
+  #mainheader {
+    height: 100%;
+    text-align: center;
+  }
+  #mainheader .mainheader-tittle {
+    float: none;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #mainheader .mainheader-image {
+    float: none;
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #join {
+    padding: 70px 0;
+  }
+  #join h2 {
+    padding-top: 0;
+  }
+  #join p {
+    padding-bottom: 30px;
+  }
+  #join .join-form {
+    padding: 40px;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=style.css.map */

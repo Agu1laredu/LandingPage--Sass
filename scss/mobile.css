@@ -1,0 +1,44 @@
+@media (max-width: 700px) {
+  .display-1 {
+    font-size: 3rem;
+  }
+  .display-2 {
+    font-size: 2rem;
+  }
+  .large {
+    font-size: 1.2rem;
+  }
+  #mainheader {
+    height: 100%;
+    text-align: center;
+  }
+  #mainheader .mainheader-tittle {
+    float: none;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  #mainheader .mainheader-image {
+    float: none;
+    height: 400px;
+    width: 100%;
+    background-image: url(../img/img.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+  #join {
+    padding: 70px 0;
+  }
+  #join h2 {
+    padding-top: 0;
+  }
+  #join p {
+    padding-bottom: 30px;
+  }
+  #join .join-form {
+    padding: 40px;
+    width: 100%;
+  }
+}
+/*# sourceMappingURL=mobile.css.map */
